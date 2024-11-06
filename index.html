@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <section>
+        <div>
+            <fieldset>
+                <legend>Person:</legend>
+                <div>
+                    <label for="firstName-input">First name</label>
+                    <input type="text" id="firstName-input" value="John">
+                </div>
+                <div>
+                    <label for="lastName-input">Last Name</label>
+                    <input type="text" id="lastName-input" value="Doe">
+                </div>
+                <div>
+                    <label for="formality-selector">Formality</label>
+                    <select id="formality-selector">
+                        <option value="formal">Formal</option>
+                        <option value="informal">Informal</option>
+                    </select>
+                </div>
+                <select id="language-selector">
+                    <option value="en">English</option>
+                    <option value="pt">Português</option>
+                </select>
+                <button id="button">Login</button>
+            </fieldset>
+        </div>
+    </section>
+    <section>
+        <h1 id="greeting-text"></h1>
+    </section>
+
+    <script src="myLittleLibrary.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
